@@ -39,8 +39,10 @@ namespace AosSdk.Core.Player.Scripts
 
         public void TeleportTo(Transform target)
         {
+            characterController.enabled = false;
             _playerTransform.position = target.position;
             _playerTransform.rotation = target.rotation;
+            characterController.enabled = true;
         }
 
         [AosAction("Телепортировать игрока в координаты")]
