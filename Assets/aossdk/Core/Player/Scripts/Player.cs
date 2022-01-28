@@ -126,5 +126,9 @@ namespace AosSdk.Core.Player.Scripts
             playerCamera.transform.localRotation = Quaternion.Euler(_rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
+        public void EnableCamera(bool value)
+        {
+            playerCamera.enabled = value;
+        }
     }
 }

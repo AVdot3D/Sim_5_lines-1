@@ -55,23 +55,26 @@
   <ItemGroup>
     <Compile Include="Assets\aossdk\Core\Player\Scripts\RayCaster.cs" />
     <Compile Include="Assets\aossdk\Core\Utils\Readonly.cs" />
+    <Compile Include="Assets\Scripts\Controllers\TeleportController.cs" />
     <Compile Include="Assets\aossdk\Core\Scripts\AosAttributes.cs" />
     <Compile Include="Assets\aossdk\Core\Player\Scripts\Player.cs" />
     <Compile Include="Assets\aossdk\Examples\TestClass.cs" />
     <Compile Include="Assets\aossdk\Examples\RailSwitch.cs" />
     <Compile Include="Assets\aossdk\Core\Utils\CommandList.cs" />
     <Compile Include="Assets\aossdk\Core\Scripts\Launcher.cs" />
+    <Compile Include="Assets\Scripts\InterractableObjects\Door.cs" />
     <Compile Include="Assets\aossdk\Core\Player\Scripts\CrossHair.cs" />
     <Compile Include="Assets\aossdk\Examples\SwitchCap.cs" />
+    <Compile Include="Assets\Scripts\CameraFlash.cs" />
     <Compile Include="Assets\aossdk\Core\Scripts\AosDescriptor.cs" />
     <Compile Include="Assets\aossdk\Core\Scripts\AosCommandQueueHandler.cs" />
     <Compile Include="Assets\aossdk\Core\Scripts\AosObjectBase.cs" />
     <Compile Include="Assets\aossdk\Core\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\aossdk\Core\Scripts\WebSocketWrapper.cs" />
     <Compile Include="Assets\aossdk\Core\Scripts\AosTypes.cs" />
-    <Compile Include="Assets\Scripts\InterractableObjects\Door.cs" />
-    <Compile Include="Assets\Scripts\Controllers\TeleportController.cs" />
-    <Compile Include="Assets\Scripts\CameraFlash.cs" />
+    <Compile Include="Assets\Scripts\Controllers\CameraSwitchContoller.cs" />
+    <Compile Include="Assets\Scripts\InterractableObjects\SwitchCameraObject.cs" />
+    <Compile Include="Assets\Scripts\Viev\InventoryViev.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AOSDescriptor.xml" />
